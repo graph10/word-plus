@@ -1,0 +1,815 @@
+@import url('fonts.css');
+@media (min-width: 601px) and (max-width: 834px) {
+    body {
+        width: 834px;
+        height: auto;
+        margin: 0px;
+        padding: 0px
+    }
+
+    #header {
+        width: 834px;
+        height: 62px;
+        display: flex;
+        align-items: center;
+        padding: 0px 0px;
+    }
+    #header_logo {
+        width: 35px;
+        height: 48px;
+        margin-left: 35px;
+    }
+    #header_links {
+        width: auto;
+        display: flex;
+    }
+    .header_link {
+        color: black;
+        font-family: 'InterSB';
+        font-size: 15px;
+    }
+    #header_btn {
+        display: none;
+    }
+    #lang {
+        width: 71px;
+        height: 31px;
+        margin-right: 35px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Inter';
+        font-size: 14px;
+    }
+    #lang img {
+        width: 26px;
+        height: 26px;
+    }
+
+
+    #offer {
+        display: flex;
+        height: 740px;
+        width: 834px;
+        justify-content: space-between;
+    }
+    #offer_content {
+        margin: 80px 0px 0px 33px;
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    #offer_info {
+        display: flexbox;
+        align-items: flex-start;
+        width: 350px;
+        height: auto;
+        color: #fff;
+    }
+    #offer_text_head {
+        font-family: 'ActayB';
+        font-size: 64px;
+        line-height: 80px;
+    }
+    #offer_text_desc {
+        font-family: 'InterSB';
+        font-size: 24px;
+    }
+    #list { 
+        font-family: 'InterM';
+        font-size: 16px;
+    }
+    #offer_btn {
+        width: 260px;
+        height: 60px;
+        border-radius: 25px;
+        padding: 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        color: #000;
+        font-family: 'InterB';
+        font-size: 18px;
+        margin-top: 49px;
+    }
+    #offer_scene1 {
+        height: 600px;
+        width: 635px;
+        display: flex;
+        margin: auto;
+    }
+    .arrow_slider {
+        width: 50px;
+        height: 50px;
+    }
+    #block1_slider {
+        width: 125px;
+        height: 17px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .offer_ellipse {
+        width: 17px;
+        height: 17px;
+        border-radius: 100%;
+        background-color: #FFFFFF;
+    }
+    #active_ellipse {
+        background-color: #00FF47;
+    }
+
+
+    #block2 {
+        width: 834px;
+        height: auto;
+        display: flexbox;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 110px;
+        padding: 0px 0px;
+    }
+    #block2_head {
+        font-family: 'ActayB';
+        font-size: 64px;
+        margin-left: 35px;
+    }
+    #block2_content {
+        display: flex;
+        width: 834px;
+        height: 307px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 45px 0px;
+    }
+    #block2_image {
+        width: 1px;
+        height: auto;
+    }
+    #block2_info {
+        width: 385px;
+        height: 296px;
+        text-align: left;
+        font-family: 'Helvetica';
+        font-size: 14px;
+    }
+    #block2_info span{
+        font-family: 'ActayB';
+        font-size: 14px;
+    }
+    #block2_btn {
+        background-color: #00C7FF;
+        width: 260px;
+        height: 57px;
+        border-radius: 25px;
+        font-family: 'Inter';
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        margin: auto;
+    }
+
+
+    #block3 {
+        display: flexbox;
+        height: 940px;
+        width: 834px;
+        padding: 0px 0px;
+        margin-bottom: 110px;
+        align-items: center;
+        justify-content: center;
+    }
+    #block3_head {
+        font-family: 'ActayB';
+        font-size: 64px;
+        margin-left: 35px;
+    }     
+    #block3_content {
+        height: 718px;
+        width: 834px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+    }
+    #card_1 {
+        width: 338px;
+        height: auto;
+        border-radius: 30px;
+        background-color: #00C7FF;
+        padding: 20px 15px; 
+        margin: auto;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #img_card1 {
+        width: 132px;
+        height: 134px;
+        margin: auto;
+    }
+    #card1_head {
+        font-family: 'Actay';
+        font-size: 32px;
+        color: #fff;
+        line-height: 0px;
+    }
+    #card1_head2 {
+        font-family: 'ActayB';
+        font-size: 24px;
+        color: #005D77;
+    }
+    .list {
+        width: auto;
+        height: auto;
+        color: #fff;
+        display: flexbox;
+        text-align: left;
+        font-family: 'Inter';
+        font-size: 14px;
+    }
+    .list li {
+        display: flex;
+        padding: 5px 0;
+    }
+    .list li input[type="checkbox"] {
+        margin-left: auto;
+        width: 21px;
+        height: 21px;
+    }
+    .cards_more {
+        width: 168px;
+        height: 36px;
+        border-radius: 25px;
+        background-color: #AFEAFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'InterSB';
+        font-size: 14px;
+        color: #005D77;
+        margin: auto;
+    }
+    .cards_arrow {
+        width: 33px;
+        height: 33px;
+    }
+    .cards_btn {
+        width: 316px;
+        height: 52px;
+        border-radius: 15px;
+        background-color: #00A1DC;
+        color: #fff;
+        font-family: 'Inter';
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 0px;
+        margin-top: 18px;
+    }
+    #card_2 {
+        width: 350px;
+        height: auto;
+        border: 22px solid #E7FFD4;
+        border-radius: 30px;
+        background-color: #90DB55;
+        padding: 20px 15px;
+        margin: auto;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #cards_btn_2 {
+        width: 316px;
+        height: 52px;
+        border-radius: 20px;
+        background-color: #69A43A;
+        color: #fff;
+        font-family: 'Inter';
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 0px;
+        margin-top: 20px;
+    }
+    #card_3 {
+        width: 338px;
+        height: auto;
+        border-radius: 30px;
+        background-color: #00C7FF;
+        padding: 20px 15px;
+        margin: auto;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #block3_content .arrow_slider{
+        display: none;
+    }
+
+
+    #block4 {
+        background-color: #00C7FF;
+        display: flexbox;
+        height: 474px;
+        width: 834px;
+        padding: 0px 0px;
+        margin-bottom: 110px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #block4_head {
+        width: 740px;
+        height: 120px;
+        font-family: 'ActayB';
+        font-size: 32px;
+        margin-left: 35px;
+    }
+    #block4_info {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #block4_btn {
+        width: 320px;
+        height: 60px;
+        border-radius: 25px;
+        margin-left: 35px;
+        background-color: #fff;
+        color: #000;
+        font-family: 'TildaSans';
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #block4_img {
+        width: 466px;
+        height: auto;
+        margin-top: 6px;
+    }
+
+    /* ##### asd */
+    #block5 {
+        display: flexbox;
+        height: 500px;
+        width: 834px;
+        padding: 0px 0px;
+        margin-bottom: 110px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    #block5_head {
+        width: 457px;
+        height: 162px;
+        font-family: 'ActayB';
+        font-size: 64px;
+    }
+    #block5_info {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .block5_cards {
+        width: 350px;
+        height: 126px;
+        border-radius: 34px;
+        font-family: 'Actay';
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .block5_cards span{
+        font-size: 28px;
+        margin: auto;
+    }
+    #block5_card1 {
+        background-color: #D2F3FF;
+        border: 3px solid #00A1DC;
+    }
+    #block5_card2 {
+        background-color: #EEFFE1;
+        border: 3px solid #B4FF79;
+    }
+    #block5_card3 {
+        background-color: #EBF1FF;
+        border: 3px solid #005099;
+    }
+    #block5_btn {
+        display: none;
+    }
+
+    /* ##### asd */
+    #block6 {
+        display: flexbox;
+        height: 673px;
+        width: 834px;
+        padding: 0px 0px;
+        margin-bottom: 110px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    #block6_head {
+        width: 591px;
+        height: 81px;
+        font-family: 'ActayB';
+        font-size: 64px;
+        margin-left: 35px;
+    }
+    #slider {
+        height: 117px;
+        width: 834px;
+        display: flexbox;
+    }
+    #block6_line {
+        width: 764px;
+        height: 31px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35px;
+    }
+    #slider_line1 {
+        width: 296px;
+        height: 5px;
+        background-color: #B4FF79;
+    }
+    #ellipse {
+        width: 31px;
+        height: 31px;
+        border-radius: 100%;
+        background-color: #B4FF79;
+    }
+    #slider_line2 {
+        width: 457px;
+        height: 5px;
+        background-color: #A5A5A5;
+    }
+    #lvl {
+        width: 834px;
+        height: 46px;
+        margin-top: 40px;
+        /* margin-left: 35px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-family: 'InterB';
+        font-size: 28px;
+    }
+    #lvl_selected {
+        width: 208px;
+        height: 45px;
+        border-radius: 25px;
+        background-color: #B4FF79;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #block6_scroll {
+        width: 766px;
+        height: 329px;
+        border-radius: 30px;
+        background-color: #00C7FF;
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+    #scroll_info {
+        width: auto;
+        height: 271px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #scroll_text {
+        width: 460px;
+        height: auto;
+        margin-left: 40px;
+        display: flexbox;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        color: #fff;
+    }
+    #scroll_head {
+        font-family: 'Actay';
+        font-size: 36px;
+        line-height: 44px;
+    }
+    #scroll_head2 {
+        font-family: 'InterSB';
+        font-size: 20px;
+    }
+    #scroll_desc {
+        font-family: 'Inter';
+        font-size: 16px;
+    }
+    #scroll_btn {
+        width: 320px;
+        height: 58px;
+        border-radius: 25px;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: auto;
+        font-family: 'InterSB';
+        font-size: 18px;
+    }
+    #slider_img {
+        width: 265px;
+        height: 247px;
+        margin: auto;
+    }
+
+
+    #block7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 493px;
+        width: 834px;
+        padding: 0px 0px;
+        margin-bottom: 110px;
+        background-color: #90DB55;
+    }
+    #block7_info {
+        width: 643px;
+        height: auto;
+        display: flexbox;
+        text-align: left;
+    }
+    #block7_head {
+        margin-left: 35px;
+        width: 643px;
+        font-family: 'Actay';
+        font-size: 36px;
+        color: #fff;
+    }
+    #block7_head span{
+        font-family: 'Actay';
+        font-size: 36px;
+    }
+    #promo {
+        width: auto;
+        height: auto;
+        display: flexbox;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+    #promo p {
+        margin-left: 35px;
+        font-family: 'Inter';
+        font-size: 20px;
+        color: #fff;
+    }
+    #promo_input {
+        width: 775px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+    }
+    #send {
+        width: 460px;
+        height: 56px;
+        margin-left: 35px;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        border-radius: 25px;
+        padding: 0px 20px;
+        border: 2px solid #224E00;
+        color: #3E3E3E;
+        font-family: 'Inter';
+        font-size: 18px;
+    }
+    #get {
+        margin-left: 135px;
+        margin-top: 25px;
+        background-color: #fff;
+        width: 260px;
+        height: 61px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Inter';
+        font-size: 18px;
+    }
+    #condition {
+        margin-top: 20px;
+        margin-left: 35px;
+        height: 25px;
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        font-family: 'Inter';
+        font-size: 14px;
+    }
+    #promo_check {
+        width: 25px;
+        height: 25px;
+    }
+    #block7_img {
+        align-self: flex-end;
+        margin-top: -300px;
+        margin-right: -30px;
+        width: 387px;
+        height: 257px;
+    }
+
+
+    #block8 {
+        display: flexbox;
+        height: 636px;
+        width: 834px;
+        padding: 0px 0px;
+        margin-bottom: 110px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    #block8_head {
+        width: 658px;
+        height: 81px;
+        font-family: 'ActayB';
+        font-size: 64px;
+    }
+    #block8_info {
+        width: 764px;
+        height: 442px;
+        margin-top: 46px;
+    }
+    #block8_card1 {
+        width: 764px;
+        height: 298px;
+        border-radius: 30px;
+        background-color: #00C7FF;
+    }
+    .block8_cards {
+        width: 764px;
+        height: 80px;
+        border: 3px solid #00C7FF;
+        border-radius: 30px;
+        margin: 30px 0px;
+    }
+    #block8_card1_head {
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 30px;
+        margin: 25px 30px 10px 30px;
+        font-family: 'Actay';
+        font-size: 24px;
+    }
+    .block8_card_head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 30px;
+        padding: 23px 30px;
+        font-family: 'Actay';
+        font-size: 24px;
+        color: #007CAA;
+    }
+    .block8_text {
+        width: auto;
+        height: auto;
+        font-family: 'InterM';
+        font-size: 20px;
+        margin: 0px 45px 0px 45px;
+    }
+    #block8_card1_text {
+        color: #fff;
+    }
+
+
+    #footer {
+        width: 834px;
+        height: 361px;
+        background-color: #00C7FF;
+        padding: 0px 0px;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer_info {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #footer_logo {
+        width: 292px;
+        height: 148px;
+        margin: 0px;
+        order: -1;
+    }
+    #footer_btn {
+        width: 260px;
+        height: 59px;
+        border-radius: 25px;
+        order: -1;
+        background-color: #fff;
+        color: #000;
+        font-family: 'Helvetica';
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #footer_links {
+        width: auto;
+        height: auto;
+        order: 1;
+        font-family: 'InterB';
+        font-size: 18px;
+        text-align: left;
+        padding: 0px 15px;
+        margin-right: 70px;
+        color: #fff;
+    }
+    #line {
+        width: auto;
+        height: 2px;
+        background-color: #D9D9D9;
+        margin: 30px 0px 20px 0px;
+    }
+    #footer_copy {
+        width: auto;
+        height: 50px;
+        color: #fff;
+    }
+    #copyright {
+        width: auto;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #politics {
+        font-family: 'InterM';
+        font-size: 18px;
+        text-align: left;
+    }
+    #foot_lang {
+        width: 93px;
+        height: 40px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Inter';
+        font-size: 24px;
+    }
+    #lang img {
+        width: 32px;
+        height: 32px;
+    }
+    #development {
+        font-family: 'InterM';
+        font-size: 18px;
+    }
+}

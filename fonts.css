@@ -1,0 +1,55 @@
+/* Inter 700 */
+@font-face {
+	font-family: 'InterB'; 
+	src: url(fonts/Inter-Bold.ttf); 
+}
+/* Inter 600 */
+@font-face {
+	font-family: 'InterSB'; 
+	src: url(fonts/Inter-SemiBold.ttf); 
+}
+/* Inter 500 */
+@font-face {
+	font-family: 'InterM'; 
+	src: url(fonts/Inter-Medium.ttf); 
+}
+/* inter 400 */
+@font-face {
+	font-family: 'Inter'; 
+	src: url(fonts/Inter-Regular.ttf); 
+}
+
+/* Vela Sans 700 */
+@font-face {
+	font-family: 'Vela'; 
+	src: url(fonts/VelaSans-Bold.ttf); 
+}
+
+/* Actay 700 */
+@font-face {
+	font-family: 'ActayB'; 
+	src: url(fonts/ActayWide-Bold.otf); 
+}
+/* Actay 400 */
+@font-face {
+	font-family: 'Actay'; 
+	src: url(fonts/Actay-Regular.otf); 
+}
+
+/* Helvetica 400 */
+@font-face {
+	font-family: 'Helvetica'; 
+	src: url(fonts/helvetica_regular.otf); 
+}
+
+/* Tilda Sans 700 */
+@font-face {
+	font-family: 'TildaSans'; 
+	src: url(fonts/TildaSans-Bold.ttf); 
+}
+
+/* Acrom 700 */
+@font-face {
+	font-family: 'AcromB'; 
+	src: url(fonts/Acrom-Bold.ttf); 
+}
