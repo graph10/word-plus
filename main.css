@@ -9,25 +9,28 @@ body {
     margin: 0px;
     padding: 0px;
     height: auto;
+    width: 1440px;
 }
 
 
 #block1 {
     background-color: #00C7FF;
-    width: auto;
+    width: 1440px;
     height: auto;
     display: flexbox;
     align-items: center;
     justify-content: center;
+    padding: 0px;
 }
 #header {
     background-color: #fff;
     height: 80px;
-    width: auto;
+    width: 1440px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 130px;
     align-items: center;
+    padding: 0px;
 }
 #header_logo {
     width: 59px;
@@ -55,6 +58,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.5s ease;
+}
+#header_btn:hover {
+    background-color: #00627E;
 }
 #lang {
     width: 93px;
@@ -71,6 +78,9 @@ body {
     width: 32px;
     height: 32px;
 }
+#burger {
+    display: none;
+}
 
 
 
@@ -79,10 +89,11 @@ body {
     display: flex;
     flex-direction: row;
     height: auto;
-    width: auto;
+    width: 1440px;
     padding: 0px 130px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0px;
 }
 #offer_content {
     margin-left: 45px;
@@ -119,12 +130,21 @@ body {
     padding: 5px 0px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #fff;
     color: #000;
     font-family: 'InterB';
     font-size: 18px;
     margin-top: auto;
+}
+#offer_btn img {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+#offer_btn:hover img{
+    display: inline;
+    opacity: 1;
 }
 #offer_scene1 {
     height: 600px;
@@ -160,7 +180,7 @@ body {
 #block2 {
     display: flexbox;
     height: 526px;
-    width: auto;
+    width: 1440px;
     padding: 0px 130px;
     margin: 160px 0px;
     align-items: center;
@@ -172,10 +192,10 @@ body {
 }
 #block2_content {
     display: flex;
-    width: auto;
+    width: 1440px;
     height: 345px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 10px;
 }
 #block2_image {
@@ -202,18 +222,26 @@ body {
     font-size: 18px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     color: #fff;
     margin: auto;
 }
-
+#block2_btn img {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+#block2_btn:hover img{
+    display: inline;
+    opacity: 1;
+}
 
 
 
 #block3 {
     display: flexbox;
     height: 974px;
-    width: auto;
+    width: 1440px;
     padding: 0px 130px;
     margin-bottom: 160px;
     align-items: center;
@@ -228,8 +256,9 @@ body {
     width: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding: 0px;
 }
 #card_1 {
     width: 300px;
@@ -303,9 +332,21 @@ body {
     font-size: 18px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px 0px;
     margin-top: 15px;
+}
+.cards_btn img {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.cards_btn:hover img{
+    display: inline;
+    opacity: 1;
+}
+.cards_btn:hover {
+    background-color: #005D77;
 }
 #card_2 {
     width: 300px;
@@ -330,9 +371,21 @@ body {
     font-size: 18px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px 0px;
     margin-top: 15px;
+}
+#cards_btn_2 img {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+#cards_btn_2:hover img{
+    display: inline;
+    opacity: 1;
+}
+#cards_btn_2:hover {
+    background-color: #00981B;
 }
 #card_3 {
     width: 300px;
@@ -354,7 +407,7 @@ body {
     background-color: #00C7FF;
     display: flexbox;
     height: 498px;
-    width: auto;
+    width: 1440px;
     padding: 80px 130px 0px 130px;
     margin-bottom: 160px;
     align-items: center;
@@ -386,6 +439,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: box-shadow 1s ease;
+}
+#block4_btn:hover {
+    box-shadow: inset 0 0 0 6px #00A1DC;
 }
 #block4_img {
     width: 466px;
@@ -398,7 +455,7 @@ body {
 #block5 {
     display: flexbox;
     height: auto;
-    width: auto;
+    width: 1440px;
     padding: 0px 130px;
     margin-bottom: 160px;
     align-items: center;
@@ -459,6 +516,11 @@ body {
     align-items: center;
     justify-content: center;
     margin: auto;
+    transition: background-color  1s ease;
+}
+#block5_btn:hover {
+    background-color: #69A43A;
+    color: #fff;
 }
 
 
@@ -467,7 +529,7 @@ body {
 #block6 {
     display: flexbox;
     height: 621px;
-    width: auto;
+    width: 1440px;
     padding: 0px 130px;
     margin-bottom: 160px;
     align-items: center;
@@ -508,7 +570,8 @@ body {
     background-color: #A5A5A5;
 }
 #lvl {
-    width: auto;
+    width: 1180px;
+    margin: auto;
     height: 46px;
     margin-top: 25px;
     display: flex;
@@ -527,11 +590,11 @@ body {
     align-items: center;
 }
 #block6_scroll {
-    width: auto;
+    width: 980px;
     height: 351px;
     border-radius: 30px;
     background-color: #00C7FF;
-    margin-top: 95px;
+    margin: 95px auto 0px auto;
 }
 #scroll_info {
     width: auto;
@@ -591,7 +654,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 493px;
-    width: auto;
+    width: 1440px;
     padding: 80px 130px 0px 130px;
     margin-bottom: 160px;
     background-color: #90DB55;
@@ -654,10 +717,20 @@ body {
     border-radius: 25px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-family: 'Inter';
     font-size: 18px;
 }
+#get img {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+#get:hover img{
+    display: inline;
+    opacity: 1;
+}
+
 #condition {
     margin-top: 20px;
     height: 25px;
@@ -685,7 +758,7 @@ body {
 #block8 {
     display: flexbox;
     height: 636px;
-    width: auto;
+    width: 1440px;
     padding: 0px 130px;
     margin-bottom: 160px;
     align-items: center;
@@ -755,7 +828,7 @@ body {
 
 
 #footer {
-    width: auto;
+    width: 1440px;
     height: auto;
     background-color: #00C7FF;
     padding: 60px 130px;
@@ -787,6 +860,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 1s ease;
+}
+#footer_btn:hover {
+    background-color: #005D77;
+    color: #fff;
 }
 #footer_links {
     width: auto;

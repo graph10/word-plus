@@ -7,6 +7,12 @@
         padding: 0px
     }
 
+    #block1 {
+        padding: 0px;
+        margin: 0px;
+        width: 834px;
+    }
+
     #header {
         width: 834px;
         height: 62px;
@@ -47,17 +53,22 @@
         width: 26px;
         height: 26px;
     }
+    #burger {
+        display: none;
+    }
 
 
     #offer {
+        position: relative;
         display: flex;
-        height: 740px;
+        height: 692px;
         width: 834px;
-        justify-content: space-between;
+        justify-content: left;
+        align-items: start;
+        padding: 0px;
     }
     #offer_content {
-        margin: 80px 0px 0px 33px;
-        width: 350px;
+        width: 360px;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -66,7 +77,7 @@
     #offer_info {
         display: flexbox;
         align-items: flex-start;
-        width: 350px;
+        width: 360px;
         height: auto;
         color: #fff;
     }
@@ -90,7 +101,7 @@
         padding: 0px 0px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         background-color: #fff;
         color: #000;
         font-family: 'InterB';
@@ -98,21 +109,25 @@
         margin-top: 49px;
     }
     #offer_scene1 {
-        height: 600px;
-        width: 635px;
+        height: 503px;
+        width: 617px;
         display: flex;
-        margin: auto;
+        position: absolute;
+        margin: 172px 0px 0px 305px;
     }
     .arrow_slider {
         width: 50px;
         height: 50px;
+        margin: 303px 20px 0px 20px;
+    }
+    #arrow_slider_right {
+        margin-left: 270px;
     }
     #block1_slider {
         width: 125px;
         height: 17px;
         margin: auto;
         display: flex;
-        justify-content: space-between;
     }
     .offer_ellipse {
         width: 17px;
@@ -153,7 +168,7 @@
         height: auto;
     }
     #block2_info {
-        width: 385px;
+        width: auto;
         height: 296px;
         text-align: left;
         font-family: 'Helvetica';
@@ -172,7 +187,7 @@
         font-size: 18px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         color: #fff;
         margin: auto;
     }
@@ -199,6 +214,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: end;
+        overflow: visible;
     }
     #card_1 {
         width: 338px;
@@ -274,7 +290,7 @@
         font-size: 18px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         padding: 5px 0px;
         margin-top: 18px;
     }
@@ -301,7 +317,7 @@
         font-size: 18px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         padding: 5px 0px;
         margin-top: 20px;
     }
@@ -369,18 +385,18 @@
 
     /* ##### asd */
     #block5 {
-        display: flexbox;
-        height: 500px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
         width: 834px;
         padding: 0px 0px;
         margin-bottom: 110px;
-        align-items: center;
+        align-items: start;
         text-align: left;
-        justify-content: center;
+        justify-content: left;
     }
     #block5_head {
         width: 457px;
-        height: 162px;
         font-family: 'ActayB';
         font-size: 64px;
     }
@@ -392,9 +408,10 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 50px;
+        position: relative;
     }
     .block5_cards {
-        width: 350px;
+        width: auto;
         height: 126px;
         border-radius: 34px;
         font-family: 'Actay';
@@ -415,6 +432,9 @@
     #block5_card2 {
         background-color: #EEFFE1;
         border: 3px solid #B4FF79;
+        position: absolute;
+        margin-left: 140px;
+        margin-top: 450px;
     }
     #block5_card3 {
         background-color: #EBF1FF;
@@ -423,8 +443,10 @@
     #block5_btn {
         display: none;
     }
+    /* #block5_info .arrow_slider {
+        margin-top: -30px;
+    } */
 
-    /* ##### asd */
     #block6 {
         display: flexbox;
         height: 673px;
@@ -476,7 +498,6 @@
         width: 834px;
         height: 46px;
         margin-top: 40px;
-        /* margin-left: 35px; */
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -506,6 +527,10 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        padding: 0px;
+    }
+    #scroll_info .arrow_slider {
+        margin: 0px 0px 0px 0px;
     }
     #scroll_text {
         width: 460px;
